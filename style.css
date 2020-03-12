@@ -1,0 +1,130 @@
+.site-width {
+  width: 980px;
+  margin: 0 auto;
+}
+.main {
+  text-align: center;
+  position: relative;
+  padding-top: 80px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Montserrat',sans-serif;
+}
+
+ul{
+  list-style: none;
+}
+
+.slide {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.slide img {
+  width: 400px;
+  height: auto;
+}
+
+.change-btn {
+  font-size: 28px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #333;
+  border-radius: 49px;
+  color: #333;
+  text-align: center;
+  line-height: 32px;
+  padding: 5px;
+  margin-top: 5px;
+  display: inline-block;
+  font-weight:700;
+  color: #fff;
+  background-color: #333333;
+  
+}
+
+.change-btn:hover {
+  color: #333333;
+  background-color: #fff;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.prev-btn {
+  position: absolute;
+  top: 50%;
+  left:20%;
+  display: none;
+}
+
+.next-btn{
+  position: absolute;
+  top: 50%;
+  right: 20%;
+}
+
+/*モーダル*/
+
+
+.modal-wrapper {
+   position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+
+
+
+.modal-lists {
+padding-top: 20px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 110px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.modal-lists .modal-list img {
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.modal-list {
+  display: none;
+}
+
+.modal-active {
+  display: block;
+}
+
+.modal {
+  background-color: #fff;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  position: absolute;
+  top:0;
+  left: 31%
+}
+
+.close-modal {
+  width: 50px;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  cursor: pointer;
+}
+
